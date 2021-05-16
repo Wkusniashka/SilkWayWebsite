@@ -1,0 +1,304 @@
+body {
+    background-color: #ebf9ff;
+    margin: 0;
+    padding: 0;
+}
+
+.lg {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+.lg a {
+    margin: 10px;
+    color: #5e5e5e;
+}
+
+.lg a:hover {
+    color: #a99a76;
+    text-decoration: underline;
+}
+
+.logo {
+    position: relative;
+    bottom: 35px;
+    z-index: -100;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav li:hover .arrow{
+    display: flex;
+}
+
+.arrow {
+    display: none;
+    position: absolute;
+    left: 60px;
+}
+
+.dropdown-menu {
+    background-color: #f3f3f3;
+}
+
+.dropdown-menu hr {
+    margin: 0 15px;
+    border: 0;
+    clear: both;
+    display: flex;
+    background-color: #cbcbcb;
+    height: 1px;
+    align-self: center;
+}
+
+.dropdown-menu a:hover {
+    color: #a99a76;
+}
+
+.nav-link {
+    color: #5e5e5e;
+}
+
+.nav-link:hover {
+    color: #a99a76;
+}
+
+#yellow {
+    color: #5e5e5e;
+}
+
+#yellow2 {
+    color: #5e5e5e;
+}
+
+#yellow:hover {
+    color: #a99a76;
+}
+
+#yellow2:hover {
+    color: #a99a76;
+}
+
+.upper_menu {
+    margin-left: 8%;
+}
+
+.upper_menu input[type='text'] {
+    background-image: url("img/1424375400_Search.png");
+    background-repeat: no-repeat;
+    background-position: 96% 5px;
+    background-color: transparent;
+    border: 1px solid #abacac;
+    border-radius: 15px;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 12%;
+}
+
+.image img {
+    width: 100%;
+    border-top: 5px solid #e4b862;
+    border-bottom: 5px solid #e4b862;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+.news hr {
+    margin: 0 15px;
+    border: 0;
+    display: flex;
+    background-color: #cbcbcb;
+    width: 50%;
+    height: 1px;
+    align-self: center;
+}
+
+.news h3 {
+    color: #909191;
+    font-weight: normal;
+    align-self: center;
+    margin: 10px;
+}
+
+.news>div {
+    width: 31%;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    padding-top: 20px;
+}
+
+.news>div p {
+    color:#898a8a;
+}
+
+.news>div:nth-child(2) p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.news>div h3 {
+    color: #676767;
+}
+
+.firstPart {
+    background-color: #f3f3f3;
+    border-bottom: 5px solid #e4b862;
+}
+
+.enquire {
+    display: flex;
+    justify-content: center;
+}
+
+.enquire hr {
+    margin: 0 15px;
+    border: 0;
+    display: flex;
+    background-color: #cbcbcb;
+    width: 40%;
+    height: 1px;
+    align-self: center;
+}
+
+.enquire h3 {
+    color: #909191;
+    font-weight: normal;
+    align-self: center;
+    margin: 10px;
+}
+
+.container form {
+    display: flex;
+    /*justify-content: space-between;*/
+    /*margin: 30px 25%;*/
+}
+
+.formDiv {
+    margin: 30px 2% 30px 20%;
+}
+
+.container form input {
+    width: 195%;
+}
+
+.container form textarea {
+    width: 195%;
+    resize: none;
+}
+
+.container form label {
+    font-size: 1.2rem;
+    color: #7b7b7b;
+}
+
+.container form label span {
+    color: red;
+}
+
+.container form input::placeholder {
+    text-align: right;
+}
+
+.container form textarea::placeholder {
+    text-align: right;
+    padding-top: 75px;
+}
+
+.container form .btn {
+    width: 127px;
+    border: 1px solid #7b7b7b;
+    border-radius: 0;
+    background-color: #ffffff;
+    position: relative;
+    left: 230px;
+}
+
+.container form .btn:hover{
+    background-color: #f3f3f3;
+}
+
+.secondPart {
+    background-color: #ffffff;
+    border-bottom: 5px solid #e4b862;
+}
+
+.silkWay {
+    display: flex;
+    justify-content: center;
+}
+
+.silkWay hr {
+    margin: 0 15px;
+    border: 0;
+    display: flex;
+    background-color: #cbcbcb;
+    width: 40%;
+    height: 1px;
+    align-self: center;
+}
+
+.silkWay h3 {
+    color: #909191;
+    font-weight: normal;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.silkWay p {
+    font-weight: lighter;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 90px;
+}
+
+.partners div {
+    margin: 4%;
+    display: flex;
+}
+
+.partners img {
+    align-self: center;
+}
+
+.thirdPart {
+    background-color: #f3f3f3;
+    border-bottom: 5px solid #e4b862;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #938d80;
+}
+
+.footerContent p {
+    margin: 0;
+    color: #62615e;
+}
+
+.footerContent div {
+    margin-left: 5%;
+}
